@@ -1,0 +1,11 @@
+Data Types Js=
+Number - Infinity / Nan (Not a Number)
+
+String = Texto
+Boolean = True or False
+Null
+Undefined
+Object = Array
+Function
+
+Typeof = Comando para descobrir o tipo do Data Type
