@@ -9,3 +9,8 @@ Object = Array
 Function
 
 Typeof = Comando para descobrir o tipo do Data Type
+
+Criação de Variáveis são feitas com os Comando Var/Let/Const
+
+String > Number = Number.parseInt(n)
+Number.parseFloat(n)
