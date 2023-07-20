@@ -14,3 +14,9 @@ Criação de Variáveis são feitas com os Comando Var/Let/Const
 
 String > Number = Number.parseInt(n)
 Number.parseFloat(n)
+Number(n)
+
+Number > String = String(n)
+n.toString()
+
+Para Utilizar Template Strings basta delimitar com cráse (``) e ${s} == Place Holder

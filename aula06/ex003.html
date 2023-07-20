@@ -20,10 +20,11 @@
     <h1>Olá, Mundo!</h1> 
     <p>Já me Livrei da Maldição</p>
     <script>
-        var n1 = Number.parseInt(window.prompt('Digite um número: ')) //Prompt retorna resultados em Strings
-        var n2 = Number.parseInt(window.prompt('Digite outro número: '))
+        var n1 = Number(window.prompt('Digite um número: ')) //Prompt retorna resultados em Strings
+        var n2 = Number(window.prompt('Digite outro número: '))
+        // Ou podemos utilizar apenas number
         var s = n1 + n2
-        window.alert('A soma dos números é: ' + s) //Concatenação
+        window.alert('A soma dos números é: ' + String(s)) //Concatenação
         // number + number para adição
         // string + string para Concatenação
 
