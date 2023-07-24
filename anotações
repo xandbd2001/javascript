@@ -30,3 +30,12 @@ Para Formatar o Número seria o comando n1.toFixed(2)
 Comando para alterar o Ponto no Número por uma Vírgula == n1.toFixed(2).replace('.',',')
 
 Comando Para Formatar o Número para Moeda (No caso Real) == n1.toLocaleString('pt-BR', {style: 'currency' , currency: 'BRL'})
+
+Operadores (aritiméticos/atribuição/relacionais/lógicos/ternário)
+Divisão Real = / (Divião com Vírgula)
+Divião Inteira = % (Resto da Divisão)
+
+Utilizar sempre a Matemática Básica == Precedência (1= () 2= ** 3= */% 4= +-)
+
+Pré Incremento / Pós Incremento
+++ ou -- antes e depois do var()
