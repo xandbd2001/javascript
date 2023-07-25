@@ -53,3 +53,5 @@ Precedência (1 Aritiméticos / 2 Relacionais / 3 Lógicos(! / && / ||) )
 
 Ternário (Teste ? true : false)
 Ex: Média >= 7.0 ? "Aprovado" : "Reprovado"
+
+Entendendo o DOM
