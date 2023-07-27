@@ -66,5 +66,7 @@ Por Nome = getElementsByName()
 Por Classe = getElementsByClassName()
 Por Seletor = querySelector() / querySelectorAll()
 
+Para Detectar erros é apenas utilizar o DevTools
+
 Eventos DOM
 Funções = function ação(param.) { Bloco } 
