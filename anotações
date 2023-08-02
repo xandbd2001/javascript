@@ -89,3 +89,29 @@ Composta = if(condição) {
 else {
     false
 }
+
+Condições Aninhadas 
+São as Condiçoes dentro de outra // if dentro de outro
+Ex: if(cond1) {
+    bloco1
+}   else {
+    if (cond2){
+        bloco2
+    } else {
+        bloco3
+    }
+}
+
+Condiçoes Múltiplas
+São testados Vários Valores dentro de uma estrutura
+switch(expressão) {
+    case valor 1:
+    break (obrigatório)
+    case valor 2:
+    break
+    case valor 3:
+    break
+        
+    default //Bloco default: 
+    break
+}
