@@ -115,3 +115,18 @@ switch(expressão) {
     default //Bloco default: 
     break
 }
+
+Repetições em JavaScript
+while(condição) {
+    ocorre quando a condição for verdadeira
+}
+
+function comerPizza() {
+    while(temFatia()) {
+        comerFatia()
+    }
+}
+
+do {
+
+} while (condição)
