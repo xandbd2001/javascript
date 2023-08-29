@@ -1,0 +1,132 @@
+Data Types Js=
+Number - Infinity / Nan (Not a Number)
+
+String = Texto
+Boolean = True or False
+Null
+Undefined
+Object = Array
+Function
+
+Typeof = Comando para descobrir o tipo do Data Type
+
+Criação de Variáveis são feitas com os Comando Var/Let/Const
+
+String > Number = Number.parseInt(n)
+Number.parseFloat(n)
+Number(n)
+
+Number > String = String(n)
+n.toString()
+
+Para Utilizar Template Strings basta delimitar com cráse (``) e ${s} == Place Holder
+
+s.length // Qauntos caracteres a string tem
+s.toUpperCase() // Tudo para Maiúsculas
+s.toLowerCase() // Tudo para Minúsculas
+
+Para Formatar o Número seria o comando n1.toFixed(2)
+
+Comando para alterar o Ponto no Número por uma Vírgula == n1.toFixed(2).replace('.',',')
+
+Comando Para Formatar o Número para Moeda (No caso Real) == n1.toLocaleString('pt-BR', {style: 'currency' , currency: 'BRL'})
+
+Operadores (aritiméticos/atribuição/relacionais/lógicos/ternário)
+
+Aritiméticos/Atribuição
+
+Divisão Real = / (Divião com Vírgula)
+Divião Inteira = % (Resto da Divisão)
+
+Utilizar sempre a Matemática Básica == Precedência (1= () 2= ** 3= */% 4= +-)
+
+Pré Incremento / Pós Incremento
+++ ou -- antes e depois do var()
+
+Relacionais/Lógicos/Ternário
+
+Relacionais( > (Maior) / < (Menor) / >= (Maior/Igual) / <= (Menor/Igual) / == (Igual) / != (Não Igual) ) // Identidade = Apenas utilizar 3 iguais(Significa Idêntico) // 
+
+Lógicos ( ! (Negação) / &&(Conjunção / E Lógico) / ||(Disjunção / Ou Lógico) )
+
+Precedência (1 Aritiméticos / 2 Relacionais / 3 Lógicos(! / && / ||) )
+
+Ternário (Teste ? true : false)
+Ex: Média >= 7.0 ? "Aprovado" : "Reprovado"
+
+Entendendo o DOM = Document Object Model
+Árvore DOM ( Hierarquia ) (window = location/document/history | document = head/body | head = meta/title | body = h1/p/div ... )
+
+Selecionando o objeto
+Por Marca / por ID / por Nome / por Clasee / por Seletor
+
+Por Marca = getElementByTagName()
+Por ID = getElementByid()
+Por Nome = getElementsByName()
+Por Classe = getElementsByClassName()
+Por Seletor = querySelector() / querySelectorAll()
+
+Para Detectar erros é apenas utilizar o DevTools
+
+Eventos DOM
+Funções = function ação(param.) { Bloco } 
+
+Condicionais IF
+if (condição) {
+    true
+} else {
+    false
+}
+
+Tipos de Condição
+Simples = if(condição) {
+    true
+}
+
+Composta = if(condição) {
+    true
+}
+else {
+    false
+}
+
+Condições Aninhadas 
+São as Condiçoes dentro de outra // if dentro de outro
+Ex: if(cond1) {
+    bloco1
+}   else {
+    if (cond2){
+        bloco2
+    } else {
+        bloco3
+    }
+}
+
+Condiçoes Múltiplas
+São testados Vários Valores dentro de uma estrutura
+switch(expressão) {
+    case valor 1:
+    break (obrigatório)
+    case valor 2:
+    break
+    case valor 3:
+    break
+        
+    default //Bloco default: 
+    break
+}
+
+Repetições em JavaScript
+while(condição) {
+    ocorre quando a condição for verdadeira
+}
+
+function comerPizza() {
+    while(temFatia()) {
+        comerFatia()
+    }
+}
+
+do {
+
+} while (condição)
