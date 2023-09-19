@@ -130,3 +130,16 @@ function comerPizza() {
 do {
 
 } while (condição)
+
+Variáveis Compostas 
+vaga a = [carro1, carro2, carro3] (chave / índice)
+A primeira Vaga é = a vaga 0
+
+array vetor = a 
+elementos = carros
+índice = números
+conteúdo / valor = o que tem dentro
+cada elemento é composto por seu valor e por uma chave de identificação
+
+let num = [5, 8, 4]
+num = espaço 0 = 5, espaço 1 = 8, espaço 2 = 4.
