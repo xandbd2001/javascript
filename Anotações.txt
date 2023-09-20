@@ -143,3 +143,6 @@ cada elemento é composto por seu valor e por uma chave de identificação
 
 let num = [5, 8, 4]
 num = espaço 0 = 5, espaço 1 = 8, espaço 2 = 4.
+
+Pesquisa de objetos:
+num.indexOf(7)
