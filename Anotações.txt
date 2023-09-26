@@ -146,3 +146,24 @@ num = espaço 0 = 5, espaço 1 = 8, espaço 2 = 4.
 
 Pesquisa de objetos:
 num.indexOf(7)
+
+Funções:
+São ações executadas assim que são chamadas ou em decorrência de algum evento.
+
+Uma Função pode receber parâmetros e reotrnar um resultado.
+
+Chamada / Parâmetros / Ação / Retorno
+
+function ação(-parametro-param) {
+    -ação-
+    return res -retorno-
+}
+ação(5) -chamada-
+
+function parimp(n) {
+    if (n%2==0) {
+        return 'par'
+    } else {
+        return 'impar'
+    }
+}
