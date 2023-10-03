@@ -167,3 +167,18 @@ function parimp(n) {
         return 'impar'
     }
 }
+
+Proximos Passos 
+HTML e CSS
+!!Functions!!
+!!Objects!!
+!!Modularização!!
+!!RegEx!!
+!!JSON!!
+!!AJAX!!
+!!NodeJS!!
+Frameworks
+
+Objects -- Podem Guardar além de números, functions
+let num = [5 ,8 ,4 ]
+let amigo = { nome:'José' ,sexo:'M' ,peso:85.4 ,engordar(p){}--function}
